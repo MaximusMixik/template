@@ -1,0 +1,87 @@
+@@include('html/_head.htm',{
+"title":"Home"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page ">
+
+			<!-- text -->
+			<section class="section ">
+				<div class="section__container">
+					<h2 class="section__title split-text" aria-hidden="true">
+						Lorem ipsum dolor sit amet <a href="#">nested link</a> elit. Pariatur, quos!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. A perspiciatis architecto consequatur placeat
+						earum vero!
+					</h2>
+					<p class="sr-only">
+						Lorem ipsum dolor sit amet <a href="#">nested link</a> elit. Pariatur, quos!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. A perspiciatis architecto consequatur placeat
+						earum vero!
+					</p>
+
+				</div>
+			</section>
+			<section class="section ">
+				<div class="section__container">
+					<h2 class="section__title split-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quos!
+					</h2>
+					<div class="green-box"></div>
+					<div class="test-size" style="height: 50px; width:50px; background-color: blue;"></div>
+
+				</div>
+			</section>
+			<section class="section  ">
+				<div class="section__container">
+					<h2 class="section__title split-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quos!
+					</h2>
+				</div>
+			</section>
+			<!-- context -->
+			<section class="section  ">
+				<div class="section__container gap-16 flex flex-col">
+					<button class="start-last mx-auto bg-red-500 p-4 max-w-fit  rounded-lg">last el action</button>
+					<button class="trigger mx-auto bg-red-500 p-4 max-w-fit  rounded-lg">animation action</button>
+					<div class="flex gap-8">
+						<div class="el one bg-green-400"></div>
+						<div class="el two bg-violet-500"></div>
+						<div class="el three bg-blue-500"></div>
+						<div class="el four bg-gray-500"></div>
+						<div class="el five bg-yellow-500"></div>
+					</div>
+				</div>
+			</section>
+			<!-- keyframes -->
+			<section class="section  ">
+				<div class="section__container gap-16 flex flex-col">
+					<div class="flex gap-8 size-[150px] bg-yellow-300">
+						<div class="keyframe el  bg-green-400"></div>
+					</div>
+				</div>
+			</section>
+			<!-- scrolltrigger -->
+			<section class="section ">
+				<div class="section__container">
+					<h2 class="section__title split-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quos!
+					</h2>
+					<div class="green-box"></div>
+				</div>
+			</section>
+			<section class="section  ">
+				<div class="section__container">
+					<h2 class="section__title split-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quos!
+					</h2>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
