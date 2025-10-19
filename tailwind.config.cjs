@@ -24,8 +24,8 @@ module.exports = {
 			'2xl': '1440px',
 		},
 		container: {
-			center: true,
-			padding: {
+			center: true, //centered container
+			padding: { //left-right paddings 
 				DEFAULT: '1rem',
 			}
 		},

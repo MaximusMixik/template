@@ -1,7 +1,7 @@
 @use "sass:math";
 
 //! Підключення компонентів tailwind
-@import "libs/tailwind";
+// @import "libs/tailwind";
 
 // Підключення міксинів
 @import "base/mixins";
@@ -21,9 +21,9 @@ $fontFamily: "";
 $fontSize: toRem(14); // де 14(px) - розмір шрифту за замовчуванням з макету
 
 // Основні кольори
-$mainColor: #000; // Колір шрифту за замовчуванням
+$mainColor: var(--black); // Колір шрифту за замовчуванням
 // Палітра кольорів
-// @import "base/colors-palette";
+@import "base/colors-palette";
 
 // Налаштування адаптивної сітки
 
@@ -44,11 +44,13 @@ $containerWidth: $maxWidthContainer + $containerPadding;
 $pc: toEm($containerWidth); // ПК, ноутбуки, деякі планшети у горизонтальному положенні
 $tablet: toEm(991.98); // Планшети, деякі телефони в горизонтальному положенні
 $mobile: toEm(767.98); // Телефони L
+$mobileMd: toEm(640.98); // Телефони L
 $mobileSmall: toEm(479.98); // Телефони S
 
 $pcWidth: $containerWidth;
 $tabletWidth: 991.98;
 $mobileWidth: 768.98;
+$mobileMdWidth: 640.98;
 $mobileSmallWidth: 479.98;
 
 // Тип адаптива:
@@ -167,7 +169,8 @@ body {
 @import "footer";
 
 // Підключення стилів окремих сторінок
-@import "home";
+@import "pages";
 
 // !add folder custom + main.scss
-// @import "custom/main";
+// my templates and components
+// @import "custom";

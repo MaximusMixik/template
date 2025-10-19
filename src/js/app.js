@@ -45,7 +45,7 @@ flsFunctions.addLoadedClass();
 Документація: https://template.fls.guru/template-docs/modul-spojlery.html
 Сніппет (HTML): spollers
 */
-// flsFunctions.spollers();
+flsFunctions.spollers();
 
 /*
 Модуль "Таби"
@@ -167,7 +167,7 @@ flsForms.formFieldsInit({
 Документація плагіна: https://swiperjs.com/
 Сніппет(HTML): swiper
 */
-// import "./files/sliders.js";
+import "./files/sliders.js";
 
 // ================= Модулі роботи з прокручуванням сторінки
 
@@ -247,14 +247,15 @@ import * as flsScroll from "./files/scroll/scroll.js";
 
 
 // ===============gsap=======================
-// GSAP 
-import './libs/gsap/index.js'
+// GSAP
+// import './libs/gsap/index.js'
 
 /* Підключаємо файли зі своїм кодом */
 // with FLS functions
-// import "./files/script.js";
+import "./files/script.js";
 
 // empty file
 // import "./custom/main.js";
+import "./custom/index.js";
 
 
