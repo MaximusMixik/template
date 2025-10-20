@@ -3,6 +3,8 @@ class ArticleNavigation {
 	constructor() {
 		this.navigationLinksList = Array.from(document.querySelectorAll('.sidebar-article__link'));
 
+		this.navigationLinksList[0].classList.add('active') //first link active 
+
 		// собираем все секции по href якорям
 		this.navigationSectionsList = this.navigationLinksList
 			.map(link => {
