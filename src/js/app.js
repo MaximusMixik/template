@@ -252,10 +252,9 @@ import * as flsScroll from "./files/scroll/scroll.js";
 
 /* Підключаємо файли зі своїм кодом */
 // with FLS functions
-import "./files/script.js";
+// import "./files/script.js";
 
-// empty file
-// import "./custom/main.js";
-import "./custom/index.js";
+// my custom JS  functionallity
+// import "./custom/index.js";
 
 
